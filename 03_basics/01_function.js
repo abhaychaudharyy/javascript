@@ -70,7 +70,7 @@ handleObject({
 const myNewArray = [200, 500, 600, 400]
 
 function returnSecondvalue(getArray){
-    return getArray[0]
+    return getArray[1]
 }
 //console.log(returnSecondvalue(myNewArray));
 console.log(returnSecondvalue([200,400,500,800]));
